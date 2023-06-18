@@ -10,7 +10,12 @@ html {
 
 body {
     font-family: Cinzel, serif;
-    color:#1a1a1a;
+    color: #1a1a1a;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .banner {
@@ -22,9 +27,9 @@ body {
     font-family: Allura;
     text-align: center;
     font-weight: 400;
-    color: transparent;    
-	-webkit-background-clip: text;
-	background-image: linear-gradient(131deg, #fdf7e9, #daa45e, #c47918);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(131deg, #fdf7e9, #daa45e, #c47918);
 }
 
 .name--start {
@@ -49,7 +54,79 @@ p {
 .flex-container {
     display: flex;
     margin-top: 100px;
+}
+
+.flex-container.flex-container--container1 {
     justify-content: flex-end;
+}
+
+.flex-container__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 80px;
+}
+
+.text {
+    margin-bottom: 40px;
+}
+
+.flex-container__foto img {
+    width: 100%;
+    max-width: 391px;
+}
+
+.flex-container.flex-container--container2 {
+    flex-direction: column;
+}
+
+.hobby {
+    display: flex;
+    flex-direction: row;
+}
+
+.hobby:not(:last-child) {
+    margin-bottom: 80px;
+}
+
+.hobby.hobby--description-left {
+    flex-direction: row-reverse;
+}
+
+.hobby__description.left {
+    margin-right: 80px;
+}
+
+.hobby__description.right {
+    margin-left: 80px;
+}
+
+.hobby__foto img {
+    max-width: 720px;
+    width: 100%;
+}
+
+.hobby__description {
+    display: flex;
+    align-items: center;
+}
+
+.flex-container.flex-container--container3 {
+    justify-content: space-around;
+}
+
+.behance img {
+    max-width: 240px;
+    width: 100%;
+}
+
+.project__foto {
+    margin-bottom: 20px;
+}
+
+.project__link {
+    color: #E18004;
+    font-size: 0.73rem;
 }
 
 .behance {
@@ -66,4 +143,9 @@ p {
     line-height: 100px;
     max-width: 342px;
     margin: 0 auto;
+}
+
+b {
+    color: #E18004;
+    font-weight: 400;
 }
