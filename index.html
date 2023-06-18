@@ -6,29 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
     <title>My hobbies</title>
 </head>
 
 <body>
-    <banner class="banner">
-        <h1 class="name">Polina Pakhomova</h1>
-    </banner>
+    <section class="banner">
+        <h1 class="name name--start">Polina Pakhomova</h1>
+    </section>
     <main>
         <section class="about">
             <h1 class="title">About me</h1>
             <div class="flex-container">
-                <p class="container__text">Hello! I am Polina. I work as an accountant in a logistics company. I am
-                    fluent in Italian and love Italian culture.</p>
-                <p class="container__text">I am diligent, responsible and organized. I enjoy putting things in order, no
-                    matter what.
-                    Hope front-end development will become another favorite thing in my life!</p>
-                <div class="container__foto"><img src="img/polina.jpg" alt="Polina"></div>
+                <div class="flex-container__text">
+                    <p class="text">Hello! I am Polina. I work as an accountant in a logistics company. I am
+                        fluent in Italian and love Italian culture.</p>
+                    <p>I am diligent, responsible and organized. I enjoy putting things in order, no
+                        matter what.
+                        Hope front-end development will become another favorite thing in my life!</p>
+                </div>
+                <div class="flex-container__foto"><img src="img/polina.jpg" alt="Polina"></div>
             </div>
         </section> 
         <section class="hobbies">
             <h1 class="title">My hobbies</h1>
-            <div class="flex-block">
+            <div class="flex-container">
                 <div class="hobby hobby--description-right">
                     <div class="hobby__foto"><img src="img/piano.jpg" alt="Piano"></div>
                     <p class="hobby__description">I listen to music anytime, anywhere. Sometimes I like to play the piano.</p>
@@ -54,7 +58,7 @@
         </section>
         <section class="behance">
             <h1 class="title">My first projects on Behance</h1>
-            <div class="flex">
+            <div class="flex-container">
                 <div class="project">
                     <div class="project__foto"><img src="https://mir-s3-cdn-cf.behance.net/projects/808/091af0158741923.Y3JvcCw4MDgsNjMyLDAsMA.png" alt="Dashboard" width="240"></div>
                     <a href="https://www.behance.net/gallery/158741923/Dashboard" class="link">View</a>
@@ -76,6 +80,9 @@
                     <a href="https://www.behance.net/gallery/158626557/eFLOWERS" class="link">View</a>
                 </div>
             </div>
+        </section>
+        <section class="footer">
+                <h1 class="name name--end">Thanks<br>for attention!</h1>
         </section>
     </main>
 </body>

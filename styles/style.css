@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 22px;
+}
+
+body {
+    font-family: Cinzel, serif;
+    color:#1a1a1a;
+}
+
+.banner {
+    background-color: #1a1a1a;
+    padding: 200px 0;
+}
+
+.name {
+    font-family: Allura;
+    text-align: center;
+    font-weight: 400;
+    color: transparent;    
+	-webkit-background-clip: text;
+	background-image: linear-gradient(131deg, #fdf7e9, #daa45e, #c47918);
+}
+
+.name--start {
+    font-size: 96px;
+    line-height: 115px;
+    max-width: 369px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 200px 100px 0;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+p {
+    max-width: 440px;
+}
+
+.flex-container {
+    display: flex;
+    margin-top: 100px;
+    justify-content: flex-end;
+}
+
+.behance {
+    padding-bottom: 200px;
+}
+
+.footer {
+    background-color: #1a1a1a;
+    padding: 120px 0;
+}
+
+.name--end {
+    font-size: 72px;
+    line-height: 100px;
+    max-width: 342px;
+    margin: 0 auto;
+}
